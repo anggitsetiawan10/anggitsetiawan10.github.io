@@ -169,9 +169,11 @@ body {
     height: auto;
     max-height: 360px;
     overflow: hidden;
+    }
       img {
     max-width: 80px;
     max-height: 80px;
     height: auto;
     width: auto;
+      }
  }
