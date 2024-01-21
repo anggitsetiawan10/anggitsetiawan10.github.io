@@ -150,9 +150,9 @@ body {
     transition: 0.5s ease-in-out;
 }
 #game-container {
-    width: 360px;
+    width: 400px;
     height: auto;
-    max-height: 500px;
+    max-height: 400px;
     overflow: hidden;
   
   }
@@ -163,3 +163,15 @@ body {
     width: auto;
   }
   }
+ @media screen and (max-width:460px){
+    #game-container {
+    width: 360px;
+    height: auto;
+    max-height: 360px;
+    overflow: hidden;
+      img {
+    max-width: 80px;
+    max-height: 80px;
+    height: auto;
+    width: auto;
+ }
